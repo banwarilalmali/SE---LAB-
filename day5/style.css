@@ -1,0 +1,86 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    
+}
+
+.box
+{
+    padding-left: 20px;
+    padding-top: 50px;
+    height: 100px;
+    width: 1500px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.innerbox1
+{
+    display: flex;
+    gap: 10px;
+}
+
+.innerbox1 div
+{
+    height: 50px;
+    width: 100px;
+
+    border-radius: 5px;
+    border: 1px solid;
+
+    overflow: hidden;
+}
+
+.innerbox1 div img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Select Location */
+
+.innerbox2
+{
+    height: 50px;
+    width: 140px;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 3px;
+
+    margin-left: 740px;
+}
+
+.location-top
+{
+    display: flex;
+    align-items: center;
+
+    gap: 6px;
+
+    font-size: 12px;
+
+    white-space: nowrap;
+}
+
+.location-top i
+{
+    font-size: 18px;
+}
+
+.location-text
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(63, 107, 188);
+}

@@ -1,0 +1,25 @@
+*{
+    background-color: black;
+    color: aliceblue;
+}
+
+#box
+{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+#main-box
+{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;  /*allow us to send items in the next line when full length of page is consummed */
+}

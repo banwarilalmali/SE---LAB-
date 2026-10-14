@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Table.com</title>
+
+    <style>
+
+        body
+        {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: azure;
+        }
+
+        table
+        {
+            border: solid;
+            border-radius: 10px;
+            border-collapse: collapse;
+        }
+
+        th
+        {
+            padding: 10px;
+            background-color: rgb(63, 159, 95);
+            border: 2px solid black;
+        }
+
+        td
+        {
+            padding: 10px;
+            background-color: rgb(241, 224, 191);
+            color: rgb(62, 39, 115);
+            border: 2px solid black;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>HTML TABLE</h1>
+
+    <table border = "1">
+
+        <!-- 1st row -->
+
+        <tr>
+
+            <th rowspan="2"></th>
+            <th colspan="2">AVERAGE</th>
+            <th rowspan="2">RED EYES</th>
+
+        </tr>
+
+        <!-- 2nd row -->
+
+        <tr>
+
+            <th>HEIGHT</th>
+            <th>WEIGHT</th>
+            
+        </tr>
+
+        <!-- 3rd row -->
+
+        <tr>
+
+            <th>MALE</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+
+        </tr>
+
+        <!-- 4th row -->
+
+        <tr>
+
+            <th>Female</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+
+        </tr>
+
+    </table>
+    
+</body>
+
+</html>
